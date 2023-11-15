@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #712301;
+  clip-path: circle(600px at right 800px);
+  z-index: 1;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+header a img {
+  width: 100px;
+}
+
+header .logo {
+  position: relative;
+  max-width: 80px;
+}
+header ul {
+  position: relative;
+  display: flex;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  color: #333;
+  font-weight: 400;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 50px;
+  display: flex;
+}
+
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+  margin-top: 50px;
+  position: relative; /* Tambahkan posisi relatif untuk mengatur z-index */
+  z-index: 2; /* Memberi nilai z-index lebih tinggi */
+}
+
+.textBox {
+  margin-top: 6rem;
+}
+
+.content .textBox h1 {
+  font-size: 50px;
+  font-weight: 30px;
+}
+.content .textBox h1 span {
+  color: orange;
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.content .textBox p {
+  color: #333;
+}
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 20px;
+  background: #712301;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.content .imgBox img {
+  max-width: 500px;
+  display: flex;
+}
+
+.starbucks {
+  margin-top: -180px;
+  margin-right: -100px;
+}
+
+img {
+  max-width: 80px;
+  min-width: 50px;
+}
+
+.ani {
+  position: absolute;
+  left: 700px;
+  bottom: 20px;
+  margin-top: 30rem;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.ani li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.ani li:hover {
+  transform: translateY(-15px);
+}
+
+.ani li img {
+  max-width: 90px;
+}
+.tiga{
+  margin-top: -1rem;
+}
+
+.sci {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  gap:5px;
+  margin: 5px 0;
+  transform: scale(0.6);
+  filter: invert(1);
+}
+
+.sci li a img{
+  max-width: 60px;
+  min-width: 15px;
+}
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4e5187f5;
+
+  }
+
+  .container {
+    max-width: 1200px;
+    padding: 2em;
+  }
+  
+  .project {
+    background-color: rgba(40, 30, 58, 0.725);
+    padding: 1.5em;
+    margin: 1.5em 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.429);
+  }
+  .project2 {
+    background-color: rgba(58, 32, 30, 0.725);
+    padding: 1.5em;
+    margin: 0,5em 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.618);
+  }
+  
+  .project h2 {
+    margin-top: 0;
+  }
+  .project p {
+    margin-bottom: 0;
+  }
+  .tugas {  
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .profile {
+    display: flex; 
+    gap: 12px;
+  }
+  .container-footer {
+  height: 100px;
+  background-color: rgba(80, 200, 255, 0.785);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
